@@ -1,0 +1,76 @@
+
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+
+/* font stuff. For inconsolata: weight domain = [200, 900] */
+.main-font {
+  font-family: "Inconsolata", monospace;
+  font-optical-sizing: auto;
+  font-size: 1.5rem;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.special-font {
+  font-family: "Major Mono Display", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* navbar start */
+nav {
+    background-color: rgb(40, 40, 40);
+    padding: 20px;
+    margin: 0;
+    display: flex;
+}
+
+nav a {
+    padding: 10px;
+    margin: 10px;
+    border-width: 1px;
+    border-radius: 10px;
+    border-style: solid;
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover {
+    background-color: white;
+    color: black;
+}
+/* navbar end */
+
+h1 {
+    text-align: center;
+    font-size: 4rem;
+}
+
+p {
+    margin: 20px;
+    padding: 50px;
+    background-color: rgb(255, 200, 220)
+}
+
+article {
+    margin: 20px;
+}
+
+.infograph {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    background-color: rgb(40, 40, 40);
+
+}
