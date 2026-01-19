@@ -92,3 +92,10 @@ footer {
 .card:hover {
     background-color: black;
 }
+
+form {
+    border-style: solid;
+    border-color: black;
+    padding: 20px;
+    margin: 20px;
+}
