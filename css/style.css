@@ -57,7 +57,8 @@ h2 {
     font-weight: 300;
     background-color: rgb(255, 200, 220);
     padding: 10px;
-    margin: 20px 10vw 20px 10vw;
+    margin: 40px 10vw 20px 10vw;
+    border-style: solid;
 
 }
 
@@ -65,12 +66,13 @@ p {
     max-width: 80vw;
     margin: 20px;
     padding: 50px;
-    background-color: rgb(255, 200, 220)
+    background-color: rgb(255, 200, 220);
+    border-style: solid;
 }
 
 article {
     padding: 30px;
-    margin: 30px 0 30px 0;
+    margin: 40px 0 40px 0;
     border-style: solid;
     border-width: 3px;
     font-size: 2rem;
@@ -152,18 +154,36 @@ footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin: 20px 10vw 20px 10vw;
 }
 
 .card {
     border-color: black;
     border-style: solid;
+    color: black;
+    border-radius: 20px;
     padding: 20px;
     margin: 20px;
+    transition-duration: 0.5s;
 
 }
 
 .card:hover {
     background-color: black;
+    color: white;
+    transform: scale(1.1);
+}
+
+figcaption {
+    text-align: center;
+    font-size: 2rem;
+    margin: 20px 0 0 0;
+    padding: 10px 0 0 0;
+    border-top-style: solid;
+}
+
+.plain {
+    text-decoration: none;
 }
 
 form {
