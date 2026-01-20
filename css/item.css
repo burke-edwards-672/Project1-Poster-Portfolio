@@ -62,3 +62,53 @@ figcaption {
     align-items: center;
 }
 
+.scoops {
+    background-color: rgb(176, 217, 230);
+}
+
+.scoops p {
+    background-color: rgb(255, 200, 220);
+}
+
+.margaret {
+    background-color: rgb(255, 226, 175);
+}
+
+.margaret p {
+    background-color: rgb(255, 184, 97);
+    border-style: double;
+    border-width: 5px;
+}
+
+.bk {
+    background-color: black;
+}
+
+.bk p {
+    background-color: rgb(16, 0, 0);
+    color: rgb(255, 159, 56);
+}
+
+.tobermory {
+    background-color: black;
+}
+
+.tobermory p {
+    background-color: black;
+    color: rgb(220, 220, 220);
+    border-style: double;
+    border-width: 5px;
+}
+
+.swag {
+    background-color: black;
+}
+
+.swag p {
+    background-color: black;
+    color: rgb(225, 200, 57);
+    border-color: rgb(57, 235, 57);
+    border-style: double;
+    border-width: 5px;
+}
+
