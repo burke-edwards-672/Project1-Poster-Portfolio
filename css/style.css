@@ -79,10 +79,22 @@ p {
 
 footer {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     color: white;
     background-color: rgb(40, 40, 40);
 
+}
+
+footer > div {
+    border-style: none;
+    padding: 20px;
+}
+
+@media screen and (max-width: 739px) {
+    footer h3 {
+        text-align: center;
+    }
 }
 
 form {

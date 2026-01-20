@@ -62,3 +62,13 @@ article {
 .tober a {
     color: rgb(240, 240, 240);
 }
+
+@media screen and (max-width: 380px) {
+    .scoops img {
+        display: none;
+    }
+
+    .tober img {
+        display: none;
+    }
+}
