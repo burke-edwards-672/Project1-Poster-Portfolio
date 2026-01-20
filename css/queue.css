@@ -1,0 +1,71 @@
+.card-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px 10vw 20px 10vw;
+}
+
+.card {
+    position: relative;
+    flex: 0 0 auto;
+    width: 100%;
+    margin: 20px;
+    padding: 0;
+    border-style: solid;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.info {
+    background-image: url("../images/pattern-grain-light.jpg");
+}
+
+.card-desc {
+    background-color: white;
+    border-style: solid;
+    border-radius: 10px;
+    width: 300px;
+    margin: 20px;
+    padding: 10px;
+}
+
+.card-desc a {
+    display: block;
+    color: black;
+    text-align: center;
+}
+
+.ball-holder {
+    display: flex;
+    margin: 0 20px 0 20px;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 812px) {
+    .ball-holder {
+        height: 300px;
+        width: 300px;
+        padding: 0 10px 0 10px;
+        justify-content: center;
+    }
+
+}
+.ball {
+    background-color: white;
+    padding: 3px;
+    border: 3px solid black;
+    border-radius: 113px; /* = 0.5*width + padding */
+}
+
+figcaption {
+    font-weight: 400;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.even {
+    background-color: rgb(220, 220, 220);
+}
