@@ -101,6 +101,16 @@ footer > div {
     padding: 20px;
 }
 
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: rgb(200, 200, 200);
+}
+
 @media screen and (max-width: 739px) {
     footer h3 {
         text-align: center;
