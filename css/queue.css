@@ -33,15 +33,6 @@ label {
     margin-left: 10px;
 }
 
-input {
-    font-family: "Inconsolata", monospace;
-    font-optical-sizing: auto;
-    font-size: 1rem;
-    font-weight: 500;
-    font-style: normal;
-    font-variation-settings: "wdth" 100;
-}
-
 .red {
     color: rgb(255, 105, 105);
 }
@@ -68,6 +59,12 @@ input[type=text], input[type=email], textarea {
     border-radius: 5px;
     border-width: 1px;
     transition-duration: 0.2s;
+    font-family: "Inconsolata", monospace;
+    font-optical-sizing: auto;
+    font-size: 1rem;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
 }
 
 input[type=text]:focus, input[type=email]:focus, textarea:focus {
@@ -109,7 +106,7 @@ input[type=text]:focus, input[type=email]:focus, textarea:focus {
 }
 
 .card:hover {
-    transform: rotate(3deg) scale(1.05);
+    transform: rotate(2deg) scale(1.05);
 }
 
 .card-desc {
