@@ -96,10 +96,3 @@ footer > div {
         text-align: center;
     }
 }
-
-form {
-    border-style: solid;
-    border-color: black;
-    padding: 20px;
-    margin: 20px;
-}

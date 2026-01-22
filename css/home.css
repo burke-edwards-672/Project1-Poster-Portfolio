@@ -9,7 +9,7 @@ article {
 .infograph {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
     transition-duration: 0.5s;
 }
 

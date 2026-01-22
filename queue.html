@@ -27,16 +27,47 @@
         <h2>See what we've got, and tell us what you've got.</h2>
 
         <form>
-            <p>Submit a request!</p>
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email">
-            <label for="make">Make</label>
-            <input type="text", id="make", name="make" placeholder="Brunswick">
-            <label for="model">Model</label>
-            <input type="text", id="model", name="model" placeholder="Infinity Quest">
-            <label for="make">Name</label>
-            <input type="text", id="pet-name", name="pet-name" placeholder="Mr. Wiggles">
-            <textarea name="extra-requests" rows="10" cols="50" placeholder="Extra stuff!!!"></textarea>
+            <article>
+                <p>A little about your ball! (required)</p>
+                <div class="inputs">
+                    <div class="pair">
+                        <label for="make">Make <span class="red">*</span></label><br>
+                        <input type="text", id="make", name="make" placeholder="Brunswick" required>
+                    </div>
+
+                    <div class="pair">
+                        <label for="model">Model <span class="red">*</span></label><br>
+                        <input type="text", id="model", name="model" placeholder="Infinity Quest" required>  
+                    </div>
+
+                    <div class="pair">
+                        <label for="pet-name">Name <span class="red">*</span></label><br>
+                        <input type="text", id="pet-name", name="pet-name" placeholder="Mr. Wiggles" required>
+                    </div>
+                </div>
+            </article>
+
+            <article>
+                <p>We promise we won't sell your information!</p>
+                <div class="inputs">
+                    <div class="pair">
+                        <label for="email">Email</label><br>
+                        <input type="email" id="email" name="email">
+                    </div>
+                </div>
+            </article>
+
+            <article>
+                <p>Any ideas for colors? Any extra lore for your ball? Whatever specifics you want, drop them here!</p>
+                <div class="inputs">
+                    <div class="pair">
+                        <label for="extra">Extra Stuff</label><br>
+                        <textarea name="extra" id="extra" rows="10" cols="50" placeholder="Extra stuff!!!"></textarea><br>
+                    </div>
+                </div>
+            </article>
+
+            <input type="submit" value="Submit your request!">
         </form>
 
         <div class="card-container">
@@ -61,7 +92,7 @@
                 </div>
             </figure>
 
-            <figure class="card info">
+            <figure class="card">
                 <div>
                     <div class="card-desc">
                         <figcaption>SWAG Show Me The Money</figcaption>
@@ -82,7 +113,7 @@
                 </div>
             </figure>
 
-            <figure class="card info">
+            <figure class="card">
                 <div>
                     <div class="card-desc">
                         <figcaption>SWAG Show Me The Money</figcaption>
@@ -103,7 +134,7 @@
                 </div>
             </figure>
 
-            <figure class="card info">
+            <figure class="card">
                 <div>
                     <div class="card-desc">
                         <figcaption>SWAG Show Me The Money</figcaption>
@@ -124,7 +155,7 @@
                 </div>
             </figure>
 
-            <figure class="card info">
+            <figure class="card">
                 <div>
                     <div class="card-desc">
                         <figcaption>SWAG Show Me The Money</figcaption>
@@ -145,7 +176,7 @@
                 </div>
             </figure>
 
-            <figure class="card info">
+            <figure class="card">
                 <div>
                     <div class="card-desc">
                         <figcaption>SWAG Show Me The Money</figcaption>
@@ -166,7 +197,7 @@
                 </div>
             </figure>
 
-            <figure class="card info">
+            <figure class="card">
                 <div>
                     <div class="card-desc">
                         <figcaption>SWAG Show Me The Money</figcaption>

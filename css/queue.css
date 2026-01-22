@@ -1,3 +1,92 @@
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    padding: 20px;
+    background-color: rgb(255, 200, 220);
+}
+
+form p {
+    background-color: rgb(200, 220, 255);
+}
+
+article {
+    background-color: white;
+    border-style: solid;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    width: 80%;
+}
+
+.pair {
+    padding: 10px;
+}
+
+label {
+    padding: 5px;
+    margin-left: 10px;
+}
+
+input {
+    font-family: "Inconsolata", monospace;
+    font-optical-sizing: auto;
+    font-size: 1rem;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+
+.red {
+    color: rgb(255, 105, 105);
+}
+
+input[type=submit] {
+    width: 60%;
+    height: 80px;
+    font-size: 1.5rem;
+    padding: 5px;
+    margin: 20px 0 20px 0;
+    background-color: white;
+    border-radius: 10px;
+    transition-duration: 0.2s;
+}
+
+input[type=submit]:hover {
+    background-color: rgb(220, 255, 220);
+    transform: scale(1.1);
+}
+
+input[type=text], input[type=email], textarea {
+    padding: 5px;
+    margin: 0 10px 10px 10px;
+    border-radius: 5px;
+    border-width: 1px;
+    transition-duration: 0.2s;
+}
+
+input[type=text]:focus, input[type=email]:focus, textarea:focus {
+    background-color: rgb(200, 220, 255);
+    padding: 10px;
+    margin-bottom: 0;
+    margin-right: 0;
+}
+
+.inputs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    margin: 0 20px 20px 20px;
+    width: 100%;
+}
+
+
 .card-container {
     display: flex;
     justify-content: center;
@@ -15,10 +104,12 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    background-image: url("../images/pattern-grain-light.jpg");
+    transition-duration: 0.5s;
 }
 
-.info {
-    background-image: url("../images/pattern-grain-light.jpg");
+.card:hover {
+    transform: rotate(3deg) scale(1.05);
 }
 
 .card-desc {
