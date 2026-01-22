@@ -46,7 +46,7 @@
     border-radius: 113px; /* = 0.5*width + padding */
 }
 
-figcaption {
+h4 {
     font-weight: 400;
     font-size: 2rem;
     text-align: center;

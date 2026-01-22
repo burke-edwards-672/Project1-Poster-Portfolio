@@ -13,7 +13,7 @@ form p {
     background-color: rgb(200, 220, 255);
 }
 
-article {
+form figure {
     background-color: white;
     border-style: solid;
     border-radius: 10px;
@@ -148,7 +148,7 @@ input[type=text]:focus, input[type=email]:focus, textarea:focus {
     border-radius: 113px; /* = 0.5*width + padding */
 }
 
-figcaption {
+h4 {
     font-weight: 400;
     font-size: 2rem;
     text-align: center;
